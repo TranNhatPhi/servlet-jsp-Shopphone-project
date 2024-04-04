@@ -1,0 +1,47 @@
+.thank {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.thank__content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 6rem;
+  padding-bottom: 3rem;
+  color: #000000;
+}
+.thank__content h3 {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 2rem;
+}
+.thank__img img {
+  width: 5rem;
+}
+.thank__btn {
+  display: block;
+  padding: 0.5rem 2rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  background-color: #F7941D;
+  color: #000000;
+}
+.checkout-step.thank-bar::before {
+  content: "";
+  position: absolute;
+  width: 67%;
+  height: 0.8rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
